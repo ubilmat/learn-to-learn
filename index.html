@@ -12,10 +12,10 @@
 <body>
     <page class="page">
         <header class="header">
-            <logo class="header__logo header__logo_place_space-around"><image class='header-logo__image' src='./images/logo_place_header.svg' alt="'Error loading an image"></logo>
+            <logo class="logo logo_place_space-around"><image class='header-logo__image' src='./images/logo_place_header.svg' alt="'Error loading an image"></logo>
             <title class="header__title">Научиться учиться</title>
             <subtitle class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class ='header__link' href=''>Узнать→</a></subtitle>
-            <div class="header__main-illustration"><image class ='header__image' width='765' height="606px" src='./images/header-image.png' alt="Error loading an image"></image></div>
+            <div class="header__main-illustration"><img class ='header__image' width='765' height="606px" src='./images/header-image.png' alt="Error loading an image"></div>
             <div class="header__square-pic"></div>
         </header>
         <section class="description">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
         </section>
-        <section class="digits">
+        <section class="section">  <!--digits-->
             <title class="section-title">Цифры и факты</title>
             <subtitle class="section-subtitle">Про учёбу и мозг</subtitle>
             <div class="table">
@@ -76,55 +76,81 @@
             <subtitle class="feynman__subtitle">Выучить и не забыть.</subtitle>
             <a class="feynman__link" href="">Подробнее →</a>
         </section>
-        <section class="kaufman">
-            <title class="section-title"></title>
-            <subtitle class="section-subtitle"></subtitle>
-            <div class="table">
+        <section class="section section__kaufman"> <!--Kaufman-->
+            <title class="section-title section-title_theme_dark">Принципы обучения</title>
+            <subtitle class="section-subtitle section-subtitle_theme_dark">От Джоша Кауфмана</subtitle>
+            <div class="table table_theme_dark table__text_padding_top">
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">1</div>
+                    <div class="table__text table__text_theme_dark">Выберите привлекательный проект.</div>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">2</div>
+                    <div class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</div>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">3</div>
+                    <div class="table__text table__text_theme_dark">Определите целевой уровень мастерства. </div>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">4</div>
+                    <div class="table__text table__text_theme_dark">Разбейте навык на элементы.</div>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">5</div>
+                    <div class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий. </div>
                 </div>
             </div>
-            <div class="table">
+            <div class="table table_theme_dark table__text_padding_top">
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">6</div>
+                    <div class="table__text table__text_theme_dark">Устраните препятствия для занятий. </div>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">7</div>
+                    <div class="table__text table__text_theme_dark">Выделите специальное время для занятий. </div>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">8</div>
+                    <div class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</div>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">9</div>
+                    <div class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</div>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading"></div>
-                    <div class="table__text"></div>
+                    <div class="table__heading table__heading_theme_dark">10</div>
+                    <div class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</div>
                 </div>
-            </div> 
+            </div>
         </section>
-        <footer class='footer'></footer>
+        <footer class='footer'>
+            <div class="footer__columns">
+                <div class="footer__column_content_copyright">
+                    <div class="logo_absolute_none logo_place_space-around"><img class='header-logo__image' src='./images/logo_place_footer.svg' alt="'Error loading an image"></image></div>
+                    <div class="footer__author">&copy Serj Giro</div>
+                </div>
+                <div class="footer__column_content_info">
+                    <div class="footer__column-heading">О Практикуме</div>
+                    <div class="footer__column-links">Главная</div>
+                    <div class="footer__column-links">Концепция</div>
+                    <div class="footer__column-links">Наставники</div>
+                </div>
+                <div class="footer__column-link"></div>
+                <div class="footer__column_content_social">
+                    <div class="footer__column-heading">Соцсети</div>
+                    <a class="footer__column-links" href="">
+                        <img class='footer__social-icon' src='./images/youtube-icon.svg'> Youtube
+                    </a>
+                    <a class="footer__column-links" href="">
+                        <img class='footer__social-icon' src='./images/vk_color_white.svg'> Вконтакте
+                    </a>
+                    <a class="footer__column-links" href="">
+                        <img class='footer__social-icon' src='./images/tiktok-icon.svg'> TikTok
+                    </a>
+                </div>
+            </div>
+        </footer>
     </page>
 </body>
 </html> 

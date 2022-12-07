@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="learn-to-learn" content="width=device-width, initial-scale=1.0">
     <title>Document</title>    
-    <link rel="normalize" href="./normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="normalize" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/blocks.css">
 </head>
 <body class="body">
-    <div class="page">
+    <div class="root">
         <header class="header">
             <logo class="logo_place_header"><img src='./images/logo_place_header.svg' alt="logo image"></logo>
             <title class="header__title">Научиться учиться</title>
@@ -17,7 +17,7 @@
             <img class="header__main-illustration" src='./images/header-image.png' alt="illustraton picture">
             <div class="header__square-pic"></div>
         </header>
-        <section>  <!--description-->
+        <section class="section">  <!--description-->
                 <div class="two-columns">
                     <h class="two-columns__brief" href=''>Главные проблемы в обучении</h>
                     <ul class="two-columns__main-text">
@@ -29,8 +29,8 @@
                 </div>
         </section>
         <section class="section">  <!--digits-->
-            <title class="section-title">Цифры и факты</title>
-            <div class="section-subtitle">Про учёбу и мозг</div>
+            <title class="section__title">Цифры и факты</title>
+            <div class="section__subtitle">Про учёбу и мозг</div>
             <div>
             <ul class="table__section">
                 <li class="table__cell">
@@ -78,8 +78,8 @@
             <a class="feynman__link" href="">Подробнеe&rarr;</a>
         </section>
         <section class="section section__kaufman"> <!--Kaufman-->
-            <title class="section-title section-title_theme_dark">Принципы обучения</title>
-            <div class="section-subtitle section-subtitle_theme_dark">От Джоша Кауфмана</div>
+            <title class="section__title section__title_theme_dark">Принципы обучения</title>
+            <div class="section__subtitle section__subtitle_theme_dark">От Джоша Кауфмана</div>
             <ul class="table__section">
                 <li class="table__cell">
                     <h3 class="table__heading table__heading_theme_dark">1</h3>

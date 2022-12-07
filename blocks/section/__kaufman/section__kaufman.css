@@ -1,0 +1,10 @@
+.section__kaufman{
+  padding: 90px 0 90px 0;
+  background-color:  #1f1f1f;
+  overflow: hidden;
+  background-image: url(/images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: top right -210px;
+  background-size: 877px 877px;
+
+}

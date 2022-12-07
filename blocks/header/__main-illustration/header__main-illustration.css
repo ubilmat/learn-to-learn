@@ -1,0 +1,10 @@
+.header__main-illustration{
+  width: 765px;
+  height: 606px;
+  position: absolute;
+  right: 0;
+  margin-top: 150px;
+  width: 765px;
+  height: 606px;
+  z-index: 1;
+}

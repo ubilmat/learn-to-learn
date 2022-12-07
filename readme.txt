@@ -5,4 +5,7 @@
 5)подключен ли normalize.css +
 ? ul and p and why
 7 все стили должны быть в папке styles???
-13/
+8 margin block end?
+13?/18?/23?/37?/131?
+completed
+
